@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+#face {
+    overflow: hidden;
+}
+#face .grape00 {
+    position: relative;
+}
+
+#face img.grape01 {
+    width: 10%;
+    max-width: 200px;
+    position: absolute;
+    left: auto;
+    left: 5%;
+    top: 10px;
+    margin: 0 auto;
+    display: none;
+}
+
+#face img.grape02 {
+    width: 25%;
+    max-width: 250px;
+    position: absolute;
+    left: auto;
+    left: -3%;
+    top: -15px;
+    margin: 0 auto;
+    display: none;
+}
+
+@media (max-width: 840px) {
+    #face img.grape02 {
+        width: 29%;
+        max-width: 200px;
+    }
+}
+#face h1 {
+    overflow: hidden;
+    position: relative;
+    /*
+    border-top: 1px solid olive;
+    border-left: 1px solid olive;
+    border-bottom: 2px solid ;;
+    border-right: 1px solid olive;
+    border-image: linear-gradient(to right, olive 0%, rgba(255,255,255, 0) 100%);
+    */
+    /*
+    border-top: 2px solid white;
+    border-image: linear-gradient(155deg, olive 0%, #fff 15%);
+    border-image-slice: 1;
+    border-left: 2px solid white;
+    */
+}
+#face #title01 { 
+    width: 80%; 
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+}
+#face .fig01 {
+    width: 99%; 
+}
+#face .bible01 {
+    margin-top: 20px;   
+    width: 99%;     
+}
+@media (max-width: 840px) {
+    #face h1 {
+    }
+    #face .fig01 {
+        width: 80%; 
+    }
+    #face #title01 {
+        width: 80%; 
+        top: auto;
+    }
+    #face .bible01 {
+        width: 90%; 
+    }
+}
+
+/*
+    NAV
+*/
+#home article nav ul li a {
+    padding: 20px 0px;
+}
+
+@media (max-width: 840px) {
+    article nav ul li a {
+        padding: 35px 0px;
+        font-size: 12pt;
+    }
+}
+
+/*
+    REIHAI
+*/
+
+.reihai01,
+.reihai02 
+{
+    border: 5px solid yellowgreen;
+    border-radius: 5px;
+    padding: 15px 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+.reihai02 
+{
+    border-color: gold;
+}
+.reihai01 h3,
+.reihai02 h3
+{
+    margin: 0 auto;
+    margin: 0;
+    font-weight: bold;
+    color:  yellowgreen;
+    border-bottom: 1px dotted yellowgreen;
+    padding-bottom: 5px;
+}
+.reihai02 h3
+{
+    color:  goldenrod;
+    border-bottom: 1px dotted goldenrod;
+}
+.reihai01 p,
+.reihai02 p
+{
+    margin: 0 auto;
+    margin: 0;
+    margin-top: 10px;
+}

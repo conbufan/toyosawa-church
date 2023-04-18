@@ -1,0 +1,28 @@
+#c-school .nani {
+    background-color: floralwhite;
+    border-radius: 5px;
+    padding: 15px 20px 25px 20px;
+    font-size: 12pt;
+    border: 3px solid goldenrod;
+}
+
+#c-school .nani h3 {
+    color: goldenrod;
+}
+
+#c-school table td,
+#c-school table th 
+{
+    padding: 15px 15px;
+    font-size: 14pt;
+}
+@media (max-width: 840px) {
+    #c-school table td {
+        text-align: left;
+        width: 70%;
+    }
+    #c-school table th {
+        width: 30%;
+        text-align: right;
+    }
+}

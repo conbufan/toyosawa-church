@@ -1,0 +1,265 @@
+/* - - - - - - - - - - - -- - - - - - - - - - - */
+
+.center {text-align: center ;}
+
+/* FONT - - - - - - - - - - - - - - - - - - - -  */
+.font-condensed { font-family: 'Open Sans Condensed';}
+.font-odibee { font-family: 'Odibee Sans';}
+.font-oswald { font-family: "Oswald";}
+.font-peddana { font-family: 'Peddana';}
+.font-teko { font-family: 'Teko';}
+.font-cario { font-family: 'Cairo', sans-serif; }
+
+/* COLUMN - - - - - - - - - - - - - - - - - - - -  */
+.flex5050 { display: flex; }
+.flex5050 > *:nth-child(1) { flex-basis: 50%; flex-grow: 0 ;}
+.flex5050 > *:nth-child(2) { flex-basis: 50%; flex-grow: 0 ;}
+@media (max-width: 840px) {
+    .flex5050 { display: block; }
+    .flex5050 > *:nth-child(1) { flex-basis: auto; flex-grow: auto ;margin-right: auto; }
+    .flex5050 > *:nth-child(2) { flex-basis: auto; flex-grow: auto ;margin-left: auto; }
+}
+/**/
+.flex50_50 { display: flex; }
+.flex50_50 > *:nth-child(1) { flex-basis: 48.5%; flex-grow: 0 ;margin-right: 1.5%; }
+.flex50_50 > *:nth-child(2) { flex-basis: 48.5%; flex-grow: 0 ;margin-left: 1.5%; }
+@media (max-width: 840px) {
+    .flex50_50 { display: block; }
+    .flex50_50 > *:nth-child(1) { flex-basis: auto; flex-grow: auto ;margin-right: auto; }
+    .flex50_50 > *:nth-child(2) { flex-basis: auto; flex-grow: auto ;margin-left: auto; margin-top: 5%; }
+}
+/**/
+.flex40_60 { display: flex; }
+.flex40_60 > *:nth-child(1) { flex-basis: 37%; flex-grow: 0 ; margin-right: 3%;}
+.flex40_60 > *:nth-child(2) { flex-basis: 60%; flex-grow: 0 ;}
+@media (max-width: 840px) {
+    .flex40_60 { display: block; }
+    .flex40_60 > *:nth-child(1) { flex-basis: auto; flex-grow: auto ;margin-right: auto; }
+    .flex40_60 > *:nth-child(2) { flex-basis: auto; flex-grow: auto ;margin-left: auto; }
+}
+/**/
+.flex30_70 { display: flex; }
+.flex30_70 > *:nth-child(1) { flex-basis: 27%; flex-grow: 0 ;}
+.flex30_70 > *:nth-child(2) { flex-basis: 70%; flex-grow: 0; margin-left: 3% ;}
+@media (max-width: 840px) {
+    .flex30_70 { display: block; }
+    .flex30_70 > *:nth-child(1) { flex-basis: auto; flex-grow: auto ;margin-right: auto; }
+    .flex30_70 > *:nth-child(2) { flex-basis: auto; flex-grow: auto ;margin-left: auto; }
+}
+/**/
+.flex70_30 { display: flex; }
+.flex70_30 > *:nth-child(1) { flex-basis: 70%; flex-grow: 0 ;}
+.flex70_30 > *:nth-child(2) { flex-basis: 27%; flex-grow: 0; margin-left: 3% ;}
+@media (max-width: 840px) {
+    .flex70_30 { display: block; }
+    .flex70_30 > *:nth-child(1) { flex-basis: auto; flex-grow: auto ;margin-right: auto; }
+    .flex70_30 > *:nth-child(2) { flex-basis: auto; flex-grow: auto ;margin-left: auto; }
+}
+/**/
+.flex20_80 { display: flex; }
+.flex20_80 > *:nth-child(1) { flex-basis: 20%; flex-grow: 0 ;}
+.flex20_80 > *:nth-child(2) { flex-basis: 75%; flex-grow: 0; margin-left: 3% ;}
+@media (max-width: 840px) {
+    .flex20_80 { display: block; }
+    .flex20_80 > *:nth-child(1) { flex-basis: auto; flex-grow: auto ;margin-right: auto; }
+    .flex20_80 > *:nth-child(2) { flex-basis: auto; flex-grow: auto ;margin-left: auto; }
+}
+/**/
+.flex80_20 { display: flex; }
+.flex80_20 > *:nth-child(1) { flex-basis: 75%; flex-grow: 0 ;}
+.flex80_20 > *:nth-child(2) { flex-basis: 27%; flex-grow: 0; margin-right: 3% ;}
+@media (max-width: 840px) {
+    .flex80_20 { display: block; }
+    .flex80_20 > *:nth-child(1) { flex-basis: auto; flex-grow: auto ;margin-right: auto; }
+    .flex80_20 > *:nth-child(2) { flex-basis: auto; flex-grow: auto ;margin-left: auto; }
+}
+/**/
+.flex33_33_33 { display: flex; }
+.flex33_33_33 > *:nth-child(1) { flex-basis: 33%; flex-grow: 0; margin-right: 1% ;}
+.flex33_33_33 > *:nth-child(2) { flex-basis: 33%; flex-grow: 0; margin-right: 1% ;}
+.flex33_33_33 > *:nth-child(3) { flex-basis: 33%; flex-grow: 0; margin-right: 1% ;}
+@media (max-width: 840px) {
+    .flex33_33_33 { display: block; }
+    .flex33_33_33 > *:nth-child(1) { flex-basis: auto; flex-grow: auto ;margin-right: auto; }
+    .flex33_33_33 > *:nth-child(2) { flex-basis: auto; flex-grow: auto ;margin-left: auto; }
+    .flex33_33_33 > *:nth-child(2) { flex-basis: auto; flex-grow: auto ;margin-left: auto; }
+}
+
+
+
+/* MARGIN - - - - - - - - - - - */
+
+
+
+
+/* NOFILL WHITE ARROW - - - - - -  */
+.arrow-w {
+    position: relative;
+}
+.arrow-w::before {
+    content: " ";
+    width: 5px;
+    height: 5px;
+    transform: rotate(45deg) translate(-5px, 1px);
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    position: relative;
+    display: inline-block;
+} 
+
+.arrow::before {
+    content: " ";
+    width: 5px;
+    height: 5px;
+    transform: rotate(45deg) translate(-5px, 2px);
+    border-top: 2px solid olive;
+    border-right: 2px solid olive;
+    position: relative;
+    display: inline-block;
+} 
+
+
+/* - - - - - - - - - - */
+.slash-w {
+    background-image: repeating-linear-gradient(
+    -45deg,rgba( 255,255,255, .15), rgba( 255,255,255, .15) 1px, transparent 0, transparent 6px );
+}
+
+/* - - - - - - - - - - - */
+#progress-bar-wrap {
+    /*background-color: white;*/
+    width: 100vw;
+    height: 4px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 10000;
+}
+
+#progress-bar {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 5px;
+    /*background-color: #d91c30;*/
+    /*background-color: black;*/
+    background: linear-gradient(90deg, rgba(250,255,0,1) 0%, rgba(255,89,0,1) 100%);
+    opacity: 1;
+    transition:  .3s;
+}
+
+/* 格子背景 - - - - - - - - - - */
+.koushi {
+    /* 背景の格子 */
+    background-size: 12px 12px;
+    background-position: 50% 50%;
+    background-image:
+    repeating-linear-gradient(
+       90deg,
+       #F3F3F3 ,
+       #F3F3F3 1px,
+       transparent 1px,
+       transparent 12px
+    ),
+    repeating-linear-gradient(
+       0deg,
+       #F3F3F3 ,
+       #F3F3F3 1px,
+       #fff 1px,
+       #fff 12px
+    );
+ }
+
+
+
+ /* SQUARE （正方形。スペース確保用）- - - - - - -  - - - - */
+ .square100::before { content: " "; padding-bottom: 100%; display: block; width: 100%;}
+ .square70::before { content: " "; padding-bottom: 70%; display: block; width: 100%;}
+ .square50::before { content: " "; padding-bottom: 50%; display: block; width: 100%;}
+ .square40::before { content: " "; padding-bottom: 40%; display: block; width: 100%;}
+ .square33::before { content: " "; padding-bottom: 33%; display: block; width: 100%;}
+ .square20::before { content: " "; padding-bottom: 20%; display: block; width: 100%;}
+ .square10::before { content: " "; padding-bottom: 10%; display: block; width: 100%;}
+
+
+ /* SP / PC - - - - - - - - - - - - */
+
+    .sp { display: none ;}
+    .pc { display: initial; }
+
+@media (max-width: 840px) {
+    .sp { display: initial;/*display: block;*/ }
+    .pc { display: none;}
+}
+
+/* SEPARATOR - - - - - - - - - - - */
+
+.separator01 {
+    background-image: url(../images/toyosawa-church_separator01.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    margin: 20px auto 20px auto;
+}
+.separator01::before {
+    content: " ";
+    padding-bottom: 8%;
+    display: block;
+}
+
+.separator02 {
+    background-image: url(../images/toyosawa-church_separator02.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60px;
+    width: 100%;
+    margin: 10px auto 10px auto;
+}
+.separator02::before {
+    content: " ";
+    padding-bottom: 3%;
+    display: block;
+}
+
+.separator03 {
+    background-image: url(../images/toyosawa-church_cross01.svg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 40px;
+    width: 100%;
+    margin: 0px auto 10px auto;
+    padding-top: 50px;
+}
+.separator03::before {
+    content: " ";
+    padding-bottom: 70px;
+    display: block;
+}
+
+
+/* SMALL - - - - - - - - */
+.small { font-size: 70%; line-height: 120%; }
+
+/* NOTE - - - - - - - - - */
+.note {
+    padding: 10px 10px;
+    border-radius: 3px;
+    background-size: auto auto;
+    background-color: #F8F8F8;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 3px, rgba(0, 0, 0, .05) 3px, rgba(0, 0, 0, .05) 4px );
+    border: 3px solid #F1F1F1;
+}
+
+/* SLASH - - - - - - - - - */
+.slash-b {
+    background-size: auto auto;
+    background-color: rgba(255, 255, 255, 1);
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 4px, rgba(0, 0, 0, .1) 4px, rgba(0, 0, 0, .1) 6px )
+}
+
+
+/* NOWRAP - - - - - - - - - -*/
+.nowrap {
+    white-space: nowrap;
+}

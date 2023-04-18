@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": ["es2017","dom"],
+    "outDir": "./public/assets/js",
+    "skipLibCheck": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strict": true,
+    "module": "es2015",
+    "esModuleInterop": true,
+    "declaration": true,
+    "types": ["node"],
+    "typeRoots": ["src/@types"],
+    "jsx": "react",
+    "noUnusedParameters": false,
+    "noUnusedLocals" : false,
+    "moduleResolution": "node", // https://github.com/axios/axios/issues/1221
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
+
+
+//"gapi", "gapi.auth2"
