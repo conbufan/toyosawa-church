@@ -5,6 +5,7 @@
 
 html {
     background-color: whitesmoke;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -39,7 +40,7 @@ header > section > article
     margin: 0 auto; 
     position: relative;
 }
-@media (max-width: 211px) {
+@media (max-width: 840px) {
     article {
         max-width: none;
         /*background-color: red;*/

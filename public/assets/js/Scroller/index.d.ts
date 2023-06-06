@@ -1,4 +1,4 @@
-declare type OnCallBackParams = {
+type OnCallBackParams = {
     element: NonNullable<Item["element"]>;
     rect: DOMRect;
     screen: {
@@ -7,16 +7,16 @@ declare type OnCallBackParams = {
     };
     diffCenter: number;
 };
-declare type EnterCallBackParams = OnCallBackParams;
-declare type OffCallBackParams = {
+type EnterCallBackParams = OnCallBackParams;
+type OffCallBackParams = {
     element: NonNullable<Item["element"]>;
     rect: DOMRect;
 };
-declare type InitCallBackParams = {
+type InitCallBackParams = {
     element: NonNullable<Item["element"]>;
     rect: DOMRect;
 };
-declare type DefaultCallBackParams = {
+type DefaultCallBackParams = {
     element: NonNullable<Item["element"]>;
     rect: DOMRect;
 };

@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/conbufan/toyosawa-church#readme",
   "devDependencies": {
-    "http-server": "^14.0.0"
+    "@types/node": "^20.2.5",
+    "http-server": "^14.0.0",
+    "node": "^20.2.0",
+    "typescript": "^5.1.3"
   }
 }

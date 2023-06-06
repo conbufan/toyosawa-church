@@ -20,7 +20,8 @@ Promise.all([
     TemplateLoader("./assets/templates/footer.html"),
     TemplateLoader("./assets/templates/header.html"),
     TemplateLoader("./assets/templates/common.html"),
-    TemplateLoader("./assets/templates/spmenu.html"),
+    //TemplateLoader("./assets/templates/spmenu.html"),
+    TemplateLoader("./assets/templates/gotop.html"),
 ]).then((res) => {
     console.log("in index.js, all TemplateLoaders have done!");
     // 共通要素ををHTMLに描画
@@ -28,7 +29,8 @@ Promise.all([
         footer: res[0],
         header: res[1],
         common: res[2],
-        spmenu: res[3],
+        // spmenu: res[3],
+        gotop: res[3],
     };
     const footer = document.getElementsByTagName("footer")[0];
     const header = document.getElementsByTagName("header")[0];
@@ -49,9 +51,17 @@ Promise.all([
             main.before(child);
         }
     }
-    if (template.spmenu) {
-        for (let child of Array.from(template.spmenu)) {
-            main.before(child);
+    /*
+    if ( template.spmenu ){
+        for ( let child of Array.from(template.spmenu) ){
+            main.before( child );
+        }
+    }
+    */
+    const gotop = document.getElementById("footer-gotop");
+    if (gotop && template.gotop) {
+        for (let child of Array.from(template.gotop)) {
+            gotop.appendChild(child);
         }
     }
     console.log("in index.js, all TemplateLoaders have set.");

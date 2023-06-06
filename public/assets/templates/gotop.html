@@ -1,0 +1,41 @@
+<style type="text/css">
+    .go-top {
+        position: relative;
+    }
+    .go-top a {
+        overflow: hidden;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        right: 5%;
+        /* transform: translate(0%, -100%); */
+        top: -100px;
+        margin: 0 auto;
+    }
+    @media (max-width: 840px) {
+        .go-top a {
+            top: -200px;
+        }
+    }
+    .go-top a span {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        /* bottom: -50px; */
+        background-color: olive;
+        transform: rotate(45deg) translate(50%, 50%);
+        transform-origin: 50% 50%;
+    }
+    .go-top a::before {
+        content: "TOPへ戻る";
+        transform: translate(45%, 440%);
+        position: absolute;
+        margin:auto;
+        font-size: 8pt;
+        text-decoration: none;
+        z-index: 1;
+    }
+</style>
+<div class="go-top">
+    <a href="#top"><span>&nbsp;</span></a>
+</div>

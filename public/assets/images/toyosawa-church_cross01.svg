@@ -1,1 +1,12 @@
-<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 37"><defs><style>.cls-1{fill:olive;}</style></defs><title>toyosawa-church</title><rect class="cls-1" y="10.53" width="23.77" height="2.71"/><rect class="cls-1" x="-6.32" y="16.85" width="36.41" height="2.71" transform="translate(-6.32 30.09) rotate(-90)"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 37">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #787100;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" y="10.53" width="23.77" height="2.71"/>
+  <rect class="cls-1" x="-6.32" y="16.85" width="36.41" height="2.71" transform="translate(-6.32 30.09) rotate(-90)"/>
+</svg>

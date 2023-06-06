@@ -11,7 +11,10 @@
     "esModuleInterop": true,
     "declaration": true,
     "types": ["node"],
-    "typeRoots": ["src/@types"],
+    "typeRoots": [
+      "./node_modules/@types",
+      "src/@types"
+    ],
     "jsx": "react",
     "noUnusedParameters": false,
     "noUnusedLocals" : false,
