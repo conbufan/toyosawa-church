@@ -1,0 +1,12 @@
+#bazzar ul.shops li {
+  width: 30%;
+  margin-right: 2%;
+  float: left;
+}
+@media (max-width: 840px) {
+  #bazzar ul.shops li {
+    width: auto;
+    margin-right: auto;
+    float: none;
+  }
+}
