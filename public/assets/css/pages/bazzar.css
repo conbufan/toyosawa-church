@@ -1,10 +1,14 @@
-#bazzar ul.shops li {
+#bazzar div.shop {
   width: 30%;
   margin-right: 2%;
   float: left;
 }
+
+#bazzar div.shop h3 {
+  font-size: 12pt;
+}
 @media (max-width: 840px) {
-  #bazzar ul.shops li {
+  #bazzar div.shop {
     width: auto;
     margin-right: auto;
     float: none;
