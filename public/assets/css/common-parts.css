@@ -319,8 +319,8 @@ span.tag-green {
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-span.tag-yewllowgreen {
-  background-color: #c4e93f;
+span.tag-yellowgreen {
+  background-color: #d2e93f;
   border-radius: 2px;
   padding: 4px 8px;
   margin-left: 10px;
@@ -329,7 +329,17 @@ span.tag-yewllowgreen {
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-span.tag-yewllow {
+span.tag-greenyellow {
+  background-color: #c0ff42;
+  border-radius: 2px;
+  padding: 4px 8px;
+  margin-left: 10px;
+  font-size: 10pt;
+  color: #1f4f18;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+span.tag-yellow {
   background-color: #fffb25;
   border-radius: 2px;
   padding: 4px 8px;
