@@ -348,6 +348,15 @@ span.tag-yellow {
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
+span.tag-orange {
+  background-color: #ffa825;
+  border-radius: 2px;
+  padding: 4px 8px;
+  margin-left: 10px;
+  font-size: 10pt;
+  border: 1px solid rgba(181, 161, 138, 0.5);
+}
+
 /*
 = = = DATE TIME = = = 
 */
