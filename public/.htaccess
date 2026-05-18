@@ -1,5 +1,4 @@
 RewriteEngine on
-RewriteCond %{HTTPS} off
-RewriteRule ^(.\*)$ https://secure01.blue.shared-server.net/www.toyosawa-ch.com/ [R=301,L]
-
-ErrorDocument 404 /404.html
+RewriteCond %{HTTPS} on
+RewriteCond %{HTTP_HOST} ^www\.toyosawa-ch\.com$
+RewriteRule ^(.*)$ https://secure01.blue.shared-server.net/www.toyosawa-ch.com/$1 [R=301,L]
